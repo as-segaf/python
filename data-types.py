@@ -5,12 +5,13 @@
 str = "hello world !"
 
 print('string')
-print(str)               # hello world !
-print(str[0])            # h
-print(str[2:5])          # llo 
-print(str[2:])           # llo world !
-print(str * 2 )          # hello world !hello world !
-print(str + " testing")  # hello world ! testing
+print(str)                                                  # hello world !
+print(str[0])                                               # h
+print(str[2:5])                                             # llo 
+print(str[2:])                                              # llo world !
+print(str * 2 )                                             # hello world !hello world !
+print(str + " testing")                                     # hello world ! testing
+print("My name is %s and weight is %d kg" % ('john',21))    # My name is john and weight is 21 kg
 print('\n')
 
 ## python lists (similar to array)
@@ -27,6 +28,10 @@ print(list[0:2])        # ['testing', 123]
 print(list[1:])         # ['123', 1.58, 'hello']
 print(tinylist * 2)     # [345, 'world', 345, 'world'] 
 print(list + tinylist)  # ['testing', 123, 1.58, 'hello', 345, 'world']
+
+del list[0]
+
+print(list)             # [123, 1.58, 'hello']
 print('\n')
 
 ## python tuples
