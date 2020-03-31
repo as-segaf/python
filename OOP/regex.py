@@ -18,7 +18,7 @@ print(x)                        # ['2', '0']
 x = re.findall("h..e",txt)      # search for a sequence that starts with "h", followed by two (any) characters, and an "e"
 print(x)                        # ['have']
 
-x = re.findall("^have",txt)    # check if the string starts with have
+x = re.findall("^have",txt)     # check if the string starts with have
 if (x):
     print("the srting starts with 'have'")
 else:
