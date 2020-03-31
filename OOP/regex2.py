@@ -42,3 +42,32 @@ print(x)
 
 x = re.findall("dollars\Z",string)  # check if the text ends with "Spain"
 print(x)
+
+
+## Sets
+## is a set of characters inside a pair of square brackets [] with a special meaning
+
+txt = "The rain in Spain"
+x = re.findall("[arn]",txt)         # check if string has any 'a', or 'r', or 'n'
+print(x)
+
+x = re.findall("[a-f]",txt)         # check if string has any characters between a and f
+print(x)
+
+x = re.findall("[^arn]",txt)        # check if string has any characters EXCEPT 'a', or 'r', or 'n'
+print(x)
+
+x = re.findall("[123]",txt)         # check if string has any 1 or 2 or 3
+print(x)
+
+x = re.findall("[0-9]",txt)         # check if string has digits
+print(x)
+
+x = re.findall("[0-5][0-9]",txt)    # check if string has any two-digits number, from 00-59
+print(x)
+
+x = re.findall("[a-zA-Z]",txt)      # check if string has any characters from a-z lowercase uppercase
+print(x)
+
+x = re.findall("[+]",txt)           # in sets, "+", "*", ".", "|", "()", "$","{}" has no special meaning, so [+] means: return a match for any + character in the string
+print(x)
