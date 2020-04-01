@@ -2,9 +2,10 @@
 
 ## python string
 
-str = "hello world !"
+stri = "hello world !"
 
-print('string')
+# str[0]="t"                                                  # error, string cannot be changed
+print(f"string {stri} asfkasf")
 print(str)                                                  # hello world !
 print(str[0])                                               # h
 print(str[2:5])                                             # llo 
