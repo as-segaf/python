@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3.8
 
 # if statement
 # Python programming language assumes any non-zero and non-null values as TRUE, and any zero or null values as FALSE value.

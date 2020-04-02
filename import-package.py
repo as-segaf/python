@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3.8
 
 ## you must put the package in the python path
 ## alternatively, you can append the path to sys.path
