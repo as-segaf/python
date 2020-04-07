@@ -35,9 +35,9 @@ print(a<b and a or b)       # 2
 # it checks a<b first
 # it returns True
 # so it is: True and a or b
-# it checks a or b
+# it checks True and a
 # it returns a
-# so it is: True and a
+# so it is: a or b
 # it returns a
 
 print(a>b and a or b)       # 3
