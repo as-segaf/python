@@ -27,3 +27,25 @@ print((lambda : b, lambda : a)[a>b]())      # 2
 
 c = 0
 print("less than 0" if 0>c else "between 0 and 1" if 1>=c>=0 else "greater than 1")
+
+## Before ternary operators in python
+a,b = 2,3
+print(a<b and a or b)       # 2
+
+# it checks a<b first
+# it returns True
+# so it is: True and a or b
+# it checks a or b
+# it returns a
+# so it is: True and a
+# it returns a
+
+print(a>b and a or b)       # 3
+
+# it checks a>b first
+# it returns False
+# so it is: False and a or b
+# it checks False and a
+# it returns False
+# so it is: False or b
+# it returns b
