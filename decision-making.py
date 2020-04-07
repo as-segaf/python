@@ -55,3 +55,20 @@ else:
         print(angka," bisa dibagi 3 tapi tidak bisa dibagi 2")
     else:
         print(angka," tidak bisa dibagi 2 dan 3")
+
+
+## switch case statement
+
+def week(angka):
+    switcher={
+        0:'Sunday',
+        1:'Monday',
+        2:'Tuesday',
+        3:'Wednesday',
+        4:'Thrusday',
+        5:'Friday',
+        6:'Saturday'
+    }
+    return switcher.get(angka,"Invalid day of week")
+
+print(week(8))
