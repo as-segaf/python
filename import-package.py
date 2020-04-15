@@ -23,7 +23,7 @@ print()
 
 ## to remove the path from sys.path
 
-sys.path.remove(r'/var/www/html/backend/python')
+# sys.path.remove(r'/var/www/html/backend/python')
 print(sys.path)
 
 ## stuck at here, removed successfully

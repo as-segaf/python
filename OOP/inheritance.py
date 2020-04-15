@@ -17,6 +17,7 @@ class Parent:   # define parent class
     def myMethod(self):
         print("this is parent's method")
 
+
 class Child(Parent):    # define child class
     def __init__(self):
         print("Calling child constructor")
@@ -26,6 +27,7 @@ class Child(Parent):    # define child class
 
     def myMethod(self):
         print("this is child's method")
+
 
 ## Data hiding
 # "__" means private
