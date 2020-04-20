@@ -14,7 +14,7 @@ def div(arg1,arg2):
 div(3,2)
 # div(3,0)
 
-# Using an error message
+## Using an error message
 
 def div(arg1,arg2):
     assert arg2!=0, "You cannot divide a number by 0\n Please try again"
@@ -22,8 +22,8 @@ def div(arg1,arg2):
 
 # div(3,0)
 
-# Using try block
-# This is not gonna work
+## Using try block
+## This is not gonna work
 try:
     def div(a,b):
         assert b!=0, "You cannot divide a number by 0\n Please try again"
@@ -33,7 +33,7 @@ except:
 
 # div(1,0)
 
-# Try this one
+## Try this one
 
 def div(a,b):
     try:
